@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="zh-CN">
 <head>
 	<meta charset="utf-8">
 	<title>在一起</title>
@@ -14,18 +14,12 @@
 	<script type="text/javascript" src="js/jscex-async-powerpack.min.js"></script>
 	<script type="text/javascript" src="js/functions.js" charset="utf-8"></script>
 	<script type="text/javascript" src="js/love.js" charset="utf-8"></script>
-
-	<style type="text/css">
-      /*.STYLE1 {
-				color: #666666;
-			}*/
-	</style>
 </head>
 <body>
-<!--===音乐：原谅——刘瑞琦======================================-->
-<audio autoplay>
-	<source src="music/forgive.mp3"/>
-</audio>
+
+<!--<audio autoplay>-->
+<!--	<source src="music/forgive.mp3"/>-->
+<!--</audio>-->
 
 <!--==============================================================-->
 <div id="main">
@@ -38,12 +32,13 @@
 		  <span style="color: #FF0000; ">
         <span class="say">亲耐滴莎莎(｡♥‿♥｡):</span><br>
 				<span class="say"></span><br>
-				<span class="say">        (づ｡◕‿‿◕｡)づ小莎宝</span><br>
+				<span class="say space2">(づ｡◕‿‿◕｡)づ小莎宝</span><br>
 				<span class="say"></span><br>
-        <span class="say">        每天都要很快乐呦（づ￣3￣）づ╭❤～</span><br>
+        <span class="say space2">每天都要很快乐呦（づ￣3￣）づ╭❤～</span><br>
 				<span class="say"></span><br>
-        <span class="say">        你和宝宝每天都要开开心心呦~~~</span><br>
-        <span class="say"><span class="space"></span>^(OO)^</span>
+        <span class="say space2">你和宝宝每天都要开开心心呦o(^▽^)o</span><br>
+        <span class="say"></span><br>
+        <span class="say"><span class="space"></span>爱你的^(OO)^</span>
       </span>
 			</div>
 		</div>
@@ -177,7 +172,6 @@
     }))
 
     var jumpAnimate = eval(Jscex.compile('async', function () {
-      var ctx = tree.ctx
       while (true) {
         tree.ctx.clearRect(0, 0, width, height)
         tree.jump()
